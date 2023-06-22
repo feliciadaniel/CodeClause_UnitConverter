@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap');
+body{
+    background-color:#E6FFFD;
+    }   
+    h1{
+    text-align: center;
+    padding-top: 30px; 
+    font-size: 45px;  
+    font-family: Barlow;
+    font-weight: bolder;
+    }
+    a{
+      list-style-type: none;
+      text-decoration: none;
+      border:0;
+      background:#B799FF;
+      display: inline-block;
+      margin: 20px auto;
+      justify-content: space-around;
+      font-family: poppins;
+      border:none;
+      padding: 14px 20px;
+      font-weight:bolder;
+      outline: none;
+      color: white;
+      border-radius: 3px;
+      transition: 0.25s;
+      cursor: pointer;
+    }
+    a:hover
+    {
+    background: #2ecc71;
+    }
+    .main{
+        padding-left: 33px;
+    }
+    
+    .box{
+      width: 650px;
+      padding: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: #ACBCFF;
+      border-radius: 9px;
+    }
+    .box h1{
+      text-align: center;
+      color: #fff;
+      font-size: 50px;
+      border: 2px ;
+      font-weight: 500;
+    }
+    
+    .box h2{
+      color:black;
+      margin: 0px;
+      padding-left: 300px;
+      font-size: 25px;
+      border: 5px ;
+    }
+    
+    .text{
+        text-align: center;
+    }
+    
+    .box input[type = "text"]{
+      border:0;
+      background: none;
+      margin: auto;
+      text-align: center;
+      border: 2px solid #3498db;
+      padding: 14px ;
+      width: 200px;
+      outline: none;
+      color:black;
+      border-radius: 3px;
+      transition: 0.25s;
+      font-size: 15px;
+    }
+    
+    .box input[type = "text"]:hover
+    {
+      box-shadow:0 0 20px rgba(0, 0, 0, 0.338);
+    }
+    
+    .box select{
+      border:0;
+      background: none;
+      margin: 20px auto;
+      text-align: center;
+      border: 2px solid #3498db;
+      padding: 12.5px;
+      outline: none;
+      border-radius: 3px;
+      transition: 0.25s;
+    }
+    
+    .box select:hover
+    {
+      box-shadow:0 0 20px rgba(0, 0, 0, 0.338);
+    }
+    
+    #inputType,#resultType{
+        width: 120px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+
+    }
